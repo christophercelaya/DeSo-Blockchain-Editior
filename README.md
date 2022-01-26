@@ -1,16 +1,11 @@
-# Welcome to your Draftbit app!
+# Welcome to the worlds first drag and drop blockchain editor!
 
-This `README` is designed to help you get your Draftbit app running locally. Read
-through the next few sections carefully, and if you encounter any issues please
-do not hesitate to post in [Community](https://community.draftbit.com).
+This `README` is designed to help you get your DeSo Enterprise app running locally.
 
 > Note that all of the commands in this document should be run using your
-> computer's **command line**. If you're unsure of what this is, please read
-> [this](https://tutorial.djangogirls.org/en/intro_to_command_line/) guide
-> before moving on.
+> computer's **command line**. 
 
-Remember, at any point you can go back to [build.draftbit.com](https://build.draftbit.com) and continue building your app
-there!
+The web builder website is still being developed.
 
 ## Requirements
 - [Node.js LTS release](https://nodejs.org/en/). As of 07/21 this is 14.17+
@@ -52,12 +47,9 @@ $ node -v
 v14.17.3
 ```
 
-[Learn more about installing Nodejs](https://nodejs.dev/learn/how-to-install-nodejs)
 
-> 😳 **Need help?** Try searching the [Community](https://community.draftbit.com) &mdash; which are a great resource for troubleshooting.
 
 ## Installing Expo CLI
-
 You can install the Expo CLI using the following command. *This is the one spot where npm install is required!*
 
 ```
@@ -66,11 +58,9 @@ $ npm install -g expo-cli
 
 Verify that the installation was successful by running `expo whoami`. You're not logged in yet, so you will see "Not logged in". You can create an account by running `expo register` if you like, or if you have one already run `expo login`, but you also don't need an account to get started.
 
-[Learn more about Expo CLI here](https://docs.expo.io/get-started/installation/#installing-expo-cli)
 
 
 ## Install Project Dependencies
-
 First, navigate to the project directory. The .zip will likely be in your
 downloads folder, so extract the .zip and move it to the desired location
 before proceeding.
@@ -88,14 +78,12 @@ $ yarn
 > path to your unzipped project folder.
 
 ## Running
-
 To start your project, simply run: `yarn start` inside of the project directory
 (make sure you've [installed the dependencies
 locally](#install-local-dependencies) first). This should open the Expo
 developer tools in a browser tab.
 
 ### Running in an emulator
-
 You can run your app on your mobile device, on the iOS simulator (if you have
 a Mac), or on the Android emulator. If you'd prefer to run your app on an
 emulator, see the installation instructions below.
@@ -129,10 +117,6 @@ The fastest way to get up and running is to use the Expo Go app on your iOS or A
     └── README.md              # This file!
 ```
 
-## Publishing your app to the App Store
-
-Expo has really great documentation for how to get started. [Click here](https://docs.expo.io/distribution/building-standalone-apps/) to learn more.
-
 ## Troubleshooting
 
 Any errors that may occur in the process of developing or testing your app will show up as a "Redbox" error on the testing device. A red box will be show on the device with the error message and stack trace for the error. The Expo documentation has [more information about Redbox errors](https://docs.expo.io/get-started/errors/#redbox-errors-and-stack-traces).
@@ -144,32 +128,15 @@ Javascript](https://docs.expo.io/workflow/debugging/).
 
 ## FAQ
 
-- _How can I add my code to GitHub?_
+- _What the hell is this?_
 
-  Pushing your code to GitHub is easy! Follow the information
-  [guide](https://help.github.com/en/github/getting-started-with-github/create-a-repo)
-  to create your repository and commit your project code.
+  The No-Code movement is here.  With two paradigm shifts going on, 
+  its only natural to FOMO YOLO and start building for the future 
+  of the web and society.
+  
+- _Ok, that's cool and all but you still didn't answer my question?_
 
-- _How do I build a binary for the App and Play store?_
-
-  Expo published an [excellent
-  guide](https://docs.expo.io/versions/latest/distribution/app-stores/) for
-  deploying to the Apple iTunes Store and the Google Play Store. Moreover, for
-  users with an iOS Enterprise certifcate, [Expo has information about using
-  the certificate to build your apps](https://docs.expo.io/versions/latest/distribution/building-standalone-apps/#if-you-choose-to-build-for-ios).
-
-- _What/where is the license for this code?_
-
-  There's no license by default, but if you create a GitHub repository for your
-  project code, for example, [adding a license is
-  easy](https://help.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository).
-
-- _Can I run Expo web with this?_
-
-  Of course! See [this](https://docs.expo.io/versions/v37.0.0/bare/using-web/#__next) guide by Expo for running your React Native app in
-  a web browser.
-
-- _What libraries does this code depend on?_
+ - _What libraries does this code depend on?_
 
   You can see the full list in your projects `package.json` file (under the
   `dependencies` section), but a few of our dependencies are `react-navigation`,

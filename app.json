@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "DeSo Blockchain Editor",
+    "slug": "deso-blockchain-editor-app",
+    "scheme": "deso-blockchain-editor-app",
+    "description": "A tool made for the community of DeSo\n\nPrototype by DeSo Enterprises\n\nOn DeSo\nchriscelaya\ndesoenterprises ",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.desoblockchain.editor",
+      "supportsTablet": false,
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.draftbit.untitledapp",
+      "permissions": []
+    },
+    "web": {
+      "themeColor": "#000000"
+    },
+    "notification": {
+      "androidMode": "default"
+    }
+  }
+}
